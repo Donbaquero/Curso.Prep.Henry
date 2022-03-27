@@ -264,11 +264,12 @@ function continueStatement(numero) {
   // Tu código:
   var array = [];
   var suma = numero;
+  
   for(var i= 0; i<10; i++) {
     if(i === 5) continue;
     else {
-      suma = suma + 2;
-      array.push(suma);
+     suma = suma + 2;
+     array.push(suma);
     }
   }
   return array;
